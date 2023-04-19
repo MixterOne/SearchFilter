@@ -10,7 +10,7 @@ let characters = {
           name: "Mamoru Takamura",
           age: 30,
           occupation: "Boxer",
-          fightingStyle: "Jolt-Counter",
+          fightingStyle: "Hybrid",
           image: "images/2.png",
         },
         {
