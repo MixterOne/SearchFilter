@@ -9,11 +9,15 @@
 body{
     color: #fff;
     width: 100%;
-    
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 80%), url(images/707385.jpg);
 }
 
 .header{
-    background: #000;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    color: red;
     height: 60px;
     width: 100%;
     display: flex;
@@ -33,7 +37,7 @@ body{
 }
 
 .nav-bar a, .auth a{
-    color: #fff;
+    color: red;
     text-decoration: none;
 }
 
@@ -62,9 +66,10 @@ section{
   display: flex;
 }
 #search-container input {
-  background-color: transparent;
+  background-color: #fff;
   width: 40%;
-  border-bottom: 2px solid #110f29;
+  border: 2px solid #110f29;
+  border-radius: 20px;
   padding: 1em 0.3em;
   
 }
@@ -74,21 +79,21 @@ section{
 #search-container button {
   padding: 1em 2em;
   margin-left: 1em;
-  background-color: #6759ff;
+  background-color: rgba(255, 0, 0, 0.699);
   color: #ffffff;
   border-radius: 5px;
   margin-top: 0.5em;
 }
 .button-value {
-  border: 2px solid #6759ff;
+  border: 2px solid rgba(255, 0, 0, 0.699);
   padding: 1em 2.2em;
   border-radius: 3em;
   background-color: transparent;
-  color: #6759ff;
+  color: black;
   cursor: pointer;
 }
 .active {
-  background-color: #6759ff;
+  background-color: rgba(255, 0, 0, 0.699);
   color: #ffffff;
 }
 
